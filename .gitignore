@@ -1,4 +1,19 @@
+# Geral
 node_modules/
-.env
 dist/
+.env
+*.log
+
+# Vite + TypeScript
+.vite/
+*.tsbuildinfo
+
+# VS Code
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Smart contracts
+artifacts/
+cache/
 build/

@@ -1,15 +1,15 @@
-# jusall-assistente
+# JusAll – Assistente Jurídico com IA
 
-Projeto acessível para leitura e assinatura de contratos com apoio de inteligência artificial e validação via blockchain. Desenvolvido por Merlon Carlos.
+Projeto completo com:
+- ✅ Frontend React (Vite + TS + Tailwind)
+- ✅ Backend Express (API /ia/perguntar)
+- ✅ Smart contract de acessibilidade em Solidity
+- ✅ Roteiro de evolução no roadmap.md
 
-## Estrutura
+## Como executar
 
-- `frontend/`: interface acessível com suporte por voz.
-- `backend/`: API para gerenciar uploads, contratos e integração com blockchain.
-- `smart-contracts/`: contrato inteligente Solidity.
-- `docs/`: documentos e roadmap.
-
-## Objetivo
-
-Garantir autonomia para pessoas com deficiência visual na assinatura de contratos digitais.
-
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
