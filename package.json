@@ -1,0 +1,13 @@
+{
+  "name": "jusall-assistente",
+  "version": "1.0.0",
+  "description": "App acessível para leitura e assinatura de contratos com IA e blockchain",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {}
+}
